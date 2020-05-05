@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/doctorbebo/portfolio/static/css/main.d1b05096.chunk.css",
-    "main.js": "/doctorbebo/portfolio/static/js/main.94eda9cd.chunk.js",
-    "main.js.map": "/doctorbebo/portfolio/static/js/main.94eda9cd.chunk.js.map",
-    "runtime-main.js": "/doctorbebo/portfolio/static/js/runtime-main.98ee1fab.js",
-    "runtime-main.js.map": "/doctorbebo/portfolio/static/js/runtime-main.98ee1fab.js.map",
-    "static/js/2.15931a8f.chunk.js": "/doctorbebo/portfolio/static/js/2.15931a8f.chunk.js",
-    "static/js/2.15931a8f.chunk.js.map": "/doctorbebo/portfolio/static/js/2.15931a8f.chunk.js.map",
-    "index.html": "/doctorbebo/portfolio/index.html",
-    "precache-manifest.3e9b8b59e860bf28a29d1be4590b6010.js": "/doctorbebo/portfolio/precache-manifest.3e9b8b59e860bf28a29d1be4590b6010.js",
-    "service-worker.js": "/doctorbebo/portfolio/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/doctorbebo/portfolio/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.15931a8f.chunk.js.LICENSE.txt": "/doctorbebo/portfolio/static/js/2.15931a8f.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/doctorbebo/portfolio/static/media/logo.5d5d9eef.svg"
+    "main.css": "/portfolio/static/css/main.d1b05096.chunk.css",
+    "main.js": "/portfolio/static/js/main.02d1b9b5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.02d1b9b5.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
+    "static/js/2.15931a8f.chunk.js": "/portfolio/static/js/2.15931a8f.chunk.js",
+    "static/js/2.15931a8f.chunk.js.map": "/portfolio/static/js/2.15931a8f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.97c2ee30fc1cd0c88a016693a34c4b0b.js": "/portfolio/precache-manifest.97c2ee30fc1cd0c88a016693a34c4b0b.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/portfolio/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.15931a8f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.15931a8f.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/portfolio/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.98ee1fab.js",
+    "static/js/runtime-main.f4f2abbf.js",
     "static/js/2.15931a8f.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.94eda9cd.chunk.js"
+    "static/js/main.02d1b9b5.chunk.js"
   ]
 }
