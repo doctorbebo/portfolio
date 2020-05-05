@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/doctorbebo/portfolio/static/css/main.d1b05096.chunk.css",
+    "main.js": "/doctorbebo/portfolio/static/js/main.94eda9cd.chunk.js",
+    "main.js.map": "/doctorbebo/portfolio/static/js/main.94eda9cd.chunk.js.map",
+    "runtime-main.js": "/doctorbebo/portfolio/static/js/runtime-main.98ee1fab.js",
+    "runtime-main.js.map": "/doctorbebo/portfolio/static/js/runtime-main.98ee1fab.js.map",
+    "static/js/2.15931a8f.chunk.js": "/doctorbebo/portfolio/static/js/2.15931a8f.chunk.js",
+    "static/js/2.15931a8f.chunk.js.map": "/doctorbebo/portfolio/static/js/2.15931a8f.chunk.js.map",
+    "index.html": "/doctorbebo/portfolio/index.html",
+    "precache-manifest.3e9b8b59e860bf28a29d1be4590b6010.js": "/doctorbebo/portfolio/precache-manifest.3e9b8b59e860bf28a29d1be4590b6010.js",
+    "service-worker.js": "/doctorbebo/portfolio/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/doctorbebo/portfolio/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.15931a8f.chunk.js.LICENSE.txt": "/doctorbebo/portfolio/static/js/2.15931a8f.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/doctorbebo/portfolio/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98ee1fab.js",
+    "static/js/2.15931a8f.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.94eda9cd.chunk.js"
+  ]
+}
