@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.card
+{
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 150%;
+    text-align: center;
+    padding: 10% 5px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+
+}
+.card-holder
+{
+    width: 100%;
+    margin: 0 0;   
+}
+
+.card-origin
+{
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+}
+
+.card-transform
+{
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+}

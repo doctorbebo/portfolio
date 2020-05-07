@@ -2,7 +2,7 @@
 .grid-template-3
 {
     display: grid;
-    grid-template-columns: 10% 40% 50%;
+    grid-template-columns: 15% 35% 50%;
 }
 .grid-template-2
 {
@@ -11,5 +11,9 @@
 }
 .col-margin
 {   
-    margin: 5px;
+    margin: 0 10px;
+}
+.col-top-margin
+{
+    margin-top: 25%;
 }

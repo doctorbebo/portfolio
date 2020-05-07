@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ProjectCard from "../ProjectCard";
 import AboutMe from "../AboutMe";
+import Partitions from "../Partitions";
 import "./style.css";
 
-function Body ()
+class Body extends Component
 {
-    return (
+    render ()
+    { 
+        return (
         <div>
             <div className="grid-template-3">
-                <div>
-          
+                <div className="col-margin col-top-margin">
+                        <Partitions />                    
                 </div>
-                <div>
-                    <AboutMe />
+                <div className="col-margin">
+                    <AboutMe/>
                 </div>
-                <div className="grid-template-2">
+                <div className="grid-template-2 col-margin">
                     <div className="col-margin">
                         <ProjectCard />
                         <ProjectCard />
@@ -28,7 +31,7 @@ function Body ()
                 </div>
             </div>
         </div>
-    )
+    )}
 }
 
 export default Body;
