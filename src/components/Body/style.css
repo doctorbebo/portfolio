@@ -1,4 +1,15 @@
-h1
+
+.grid-template-3
 {
-    color: green;
+    display: grid;
+    grid-template-columns: 10% 40% 50%;
+}
+.grid-template-2
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.col-margin
+{   
+    margin: 5px;
 }

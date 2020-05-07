@@ -1,11 +1,31 @@
 import React from 'react';
+import ProjectCard from "../ProjectCard";
 import "./style.css";
 
 function Body ()
 {
     return (
         <div>
-            <h1>Hello from Body</h1>
+            <div className="grid-template-3">
+                <div>
+          
+                </div>
+                <div>
+          
+                </div>
+                <div className="grid-template-2">
+                    <div className="col-margin">
+                        <ProjectCard />
+                        <ProjectCard />
+                        <ProjectCard />
+                    </div>
+                    <div className="col-margin">
+                        <ProjectCard />
+                        <ProjectCard />
+                        <ProjectCard />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
