@@ -12,9 +12,9 @@ import "./style.css";
     if(props.id === props.partitionSelected)
     {
         return(
-            <div>
+            <div className = "card-transform">
                 <div className= "card-holder"  onMouseEnter = {MouseEnter} >
-                    <div  className="card card-transform" >
+                    <div  className="card" >
                         <div className = "text card-transform"> {props.id} </div> 
                     </div>
                 </div>
@@ -23,9 +23,9 @@ import "./style.css";
     }else
     {
         return (
-            <div>
+            <div className = "origin">
                 <div className= "card-holder"  onMouseEnter = {MouseEnter} >
-                    <div  className="card  origin">
+                    <div  className="card">
                         <div className = "text origin"> {props.id}</div> 
                     </div>
                 </div>

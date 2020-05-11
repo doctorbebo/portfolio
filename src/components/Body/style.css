@@ -9,11 +9,11 @@
     display: grid;
     grid-template-columns: auto auto;
 }
-.col-margin
+.col-padding
 {   
-    margin: 0 10px;
+    padding: 0 10px;
 }
-.col-top-margin
+.col-margin-auto
 {
-    margin-top: 25%;
+    margin: auto 0;
 }

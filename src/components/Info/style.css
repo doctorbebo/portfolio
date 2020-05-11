@@ -1,0 +1,33 @@
+.holder
+{
+position: relative;
+height: 100%;
+}
+.info
+{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    height: 0%;
+    width: 0%;
+    padding: 10px;
+    color: blanchedalmond;
+    opacity: 0;
+
+}
+.info-origin
+{
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+    transition: width 0.25s, height 3s, opacity 0.25s;
+}
+
+.info-transform
+{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: width 0.75s, height 10ms,  opacity 0.25s;
+    transition-delay: 0.35s;
+}

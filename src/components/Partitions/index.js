@@ -1,42 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Partition from "../Partition";
 import "./style.css";
 
-class Partitions extends Component
+function Partitions (props)
 {
 
-    state =
-    {
-        partitionSelected: 0,
-    }
-
-    handleState = (name, value) =>
-    {
-        this.setState({[name]: value},() =>
-            {
-                console.log(this.state.partitionSelected)
-            })
-    }
-    
-    render()
-    {
-        return (
-            <div>
-                <div  className ="margin-top">
-                    <Partition id = {"About Me"} partitionSelected = {this.state.partitionSelected} handleState = {this.handleState}/>
-                </div>
-                <div  className ="margin-top">
-                    <Partition id = {"Skills"} partitionSelected = {this.state.partitionSelected} handleState = {this.handleState}/>
-                </div>
-                    <div  className ="margin-top">
-                    <Partition id = {"Test 1"} partitionSelected = {this.state.partitionSelected} handleState = {this.handleState}/>
-                </div>
-                <div  className ="margin-top">
-                    <Partition id = {"Test 2"} partitionSelected = {this.state.partitionSelected} handleState = {this.handleState}/>
-                </div>
+    return (
+        <div>
+            <div  className ="margin">
+                <Partition id = {"About Me"} partitionSelected = {props.partitionSelected} handleState = {props.handleStateChange}/>
             </div>
-        )
-    }
+            <div  className ="margin">
+                <Partition id = {"Skills"} partitionSelected = {props.partitionSelected} handleState = {props.handleStateChange}/>
+            </div>
+                <div  className ="margin">
+                <Partition id = {"Test 1"} partitionSelected = {props.partitionSelected} handleState = {props.handleStateChange}/>
+            </div>
+            <div  className ="margin">
+                <Partition id = {"Test 2"} partitionSelected = {props.partitionSelected} handleState = {props.handleStateChange}/>
+            </div>
+        </div>
+    )
 }
 
 export default  Partitions;
