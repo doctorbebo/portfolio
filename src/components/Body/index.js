@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ProjectCard from "../ProjectCard";
 import Info from "../Info";
 import Partitions from "../Partitions";
+import Resume from "../Resume_link"
 import "./style.css";
 
 class Body extends Component
@@ -26,7 +27,8 @@ class Body extends Component
         <div>
             <div className="grid-template-3">
                 <div className="col-margin-auto">
-                    <Partitions partitionSelected = {this.state.partitionSelected} handleStateChange = {this.handleStateChange} />                    
+                    <Partitions partitionSelected = {this.state.partitionSelected} handleStateChange = {this.handleStateChange} /> 
+                    <Resume/>              
                 </div>
                 <div className="">
                     <Info partitionSelected = {this.state.partitionSelected}/>
