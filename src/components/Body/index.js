@@ -35,14 +35,14 @@ class Body extends Component
                 </div>
                 <div className="grid-template-2 col-margin">
                     <div className="col-padding">
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
+                        <ProjectCard name = {"Fair Weather Hiking"} />
+                        <ProjectCard name = {"Music Quiz"}  />
+                        <ProjectCard name = {"Test Name one"} />
                     </div>
                     <div className="col-padding">
-                        <ProjectCard />
-                        <ProjectCard />
-                        <ProjectCard />
+                        <ProjectCard name = {"Test Name Two"} />
+                        <ProjectCard name = {"Test Name Three"} />
+                        <ProjectCard name = {"Test Name Four"} />
                     </div>
                 </div>
             </div>

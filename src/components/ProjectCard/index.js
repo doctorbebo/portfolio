@@ -1,6 +1,6 @@
 import React from 'react';
 import "./style.css";
-import picture from "./image.png" 
+import icon from "./IconOne.png" 
 
 class ProjectCard extends React.Component
 {   
@@ -35,7 +35,8 @@ class ProjectCard extends React.Component
         return (
         <div className="project-card" onMouseEnter = {this.MouseEnter} onMouseLeave = {this.MouseLeave}>
             <div className={`icon-holder origin`} ref = {this.icon_holder}>
-                <img className="icon" alt = " of project" src = {picture}/>
+                <p className = "text-icon-overlay" >{this.props.name}</p>
+                <img className="icon" alt = " of project" src = {icon}/>
             </div>
         </div>
         )
