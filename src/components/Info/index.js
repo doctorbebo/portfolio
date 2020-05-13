@@ -3,6 +3,7 @@ import "./style.css"
 
 function Info (props)
 {
+
     return (
         <div className = "holder">
             <div className= {`info ${props.partitionSelected === "About Me" ? "info-transform" : "info-origin" }`}>
@@ -16,7 +17,10 @@ function Info (props)
             </div>  
             <div className= {`info ${props.partitionSelected === "Test 2" ? "info-transform" : "info-origin" }`}>
                 <div className="">Test 2</div>
-            </div>             
+            </div> 
+            <div className= {`info ${!props.partitionSelected ? "introduction-card" : "info-origin" }`}>
+                <div className="">Test 2</div>
+            </div>               
         </div>
     )
 } 

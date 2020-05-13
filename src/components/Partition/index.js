@@ -13,8 +13,8 @@ import "./style.css";
     {
         return(
             <div className = "card-transform">
-                <div className= "card-holder"  onMouseEnter = {MouseEnter} >
-                    <div  className="card" >
+                <div className= "card-holder"   >
+                    <div  className="card" onMouseEnter = {MouseEnter} >
                         <div className = "text card-transform"> {props.id} </div> 
                     </div>
                 </div>
@@ -24,8 +24,8 @@ import "./style.css";
     {
         return (
             <div className = "origin">
-                <div className= "card-holder"  onMouseEnter = {MouseEnter} >
-                    <div  className="card">
+                <div className= "card-holder"   >
+                    <div  className="card" onMouseEnter = {MouseEnter}>
                         <div className = "text origin"> {props.id}</div> 
                     </div>
                 </div>

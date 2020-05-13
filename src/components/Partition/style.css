@@ -5,6 +5,8 @@
 {
     width: 75%;
     background-color: black;
+    border: rgb(78, 78, 78) solid 1px;
+    border-left: none;
     color: whitesmoke;
     font-size: 150%;
     text-align: center;
@@ -17,16 +19,19 @@
 {
     width: 100%;
     margin: 0 0;   
+
 }
 
 .card-origin
 {
     transform: rotate(0deg);
     transition: transform 0.5s;
+
 }
 
 .card-transform
 {
-    transform: rotateY(180deg);
-    transition: transform 0.5s;
+    transform: rotateY(180deg) scaleX(1.01);
+    transition: transform 0.5s; 
+
 }

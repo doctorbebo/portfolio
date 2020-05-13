@@ -10,9 +10,6 @@ class ProjectCard extends React.Component
         this.randNum = 0;
     }
 
-    componentDidMount() 
-    {
-    }
 
     MouseEnter = () => 
     {

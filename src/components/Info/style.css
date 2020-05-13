@@ -1,13 +1,15 @@
+
 .holder
 {
-position: relative;
-height: 100%;
+    position: relative;
+    height: 100%;
 }
 .info
 {
     position: absolute;
     bottom: 0;
     background-color: black;
+    border: rgb(78, 78, 78) solid 1px;
     height: 0%;
     width: 0%;
     padding: 10px;
@@ -30,4 +32,11 @@ height: 100%;
     opacity: 1;
     transition: width 0.75s, height 10ms,  opacity 0.25s;
     transition-delay: 0.35s;
+}
+.introduction-card
+{
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(58, 58, 90, 0.6);
 }

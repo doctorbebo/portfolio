@@ -26,11 +26,11 @@ class Body extends Component
         return (
         <div>
             <div className="grid-template-3">
-                <div className="col-margin-auto">
+                <div className="col-margin-auto z-index-1">
                     <Partitions partitionSelected = {this.state.partitionSelected} handleStateChange = {this.handleStateChange} /> 
                     <Resume/>              
                 </div>
-                <div className="">
+                <div className="col-margin-20">
                     <Info partitionSelected = {this.state.partitionSelected}/>
                 </div>
                 <div className="grid-template-2 col-margin">

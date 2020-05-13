@@ -6,7 +6,7 @@ function Partitions (props)
 {
 
     return (
-        <div>
+        <div className="z">
             <div  className ="margin">
                 <Partition id = {"About Me"} partitionSelected = {props.partitionSelected} handleState = {props.handleStateChange}/>
             </div>
