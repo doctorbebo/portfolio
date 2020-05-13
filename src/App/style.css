@@ -5,5 +5,12 @@
     bottom: 0;
     padding: 0;
     margin: 0;
-    height: 100vh;
+}
+
+@media only screen and (max-width: 1600px)
+{
+    #myVideo 
+    {
+        height: 100vh;
+    } 
 }
