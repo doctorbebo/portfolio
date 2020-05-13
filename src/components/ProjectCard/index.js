@@ -14,7 +14,7 @@ class ProjectCard extends React.Component
     MouseEnter = () => 
     {
         const ref = this.icon_holder.current;
-        this.randNum = Math.floor(Math.random()*4)+ 1;
+        this.randNum = Math.floor(Math.random()*3)+ 1;
         ref.classList.toggle(`transform-${this.randNum}`);
         ref.classList.toggle("origin");
     }
