@@ -46,21 +46,27 @@ class ProjectCard extends React.Component
         switch (this.props.name) {
             case "Fair Weather Hiking":
             this.backgroundImage = fairWeatherHiking;
+            this.link = "https://github.com/doctorbebo/Fair_Weather_Hiking_App"
                 break;
             case "Note Taker App":
             this.backgroundImage = noteTaker;
+            this.link = "https://afternoon-chamber-95392.herokuapp.com/"
                 break;
             case "React Employee Directory":
             this.backgroundImage = reactEmployeeDirectory;
+            this.link = "https://salty-springs-52051.herokuapp.com/"
                 break;
             case "PWA Budget Tracker":
             this.backgroundImage = pwaBudgetTracker;
+            this.link = "https://still-eyrie-21891.herokuapp.com/"
                 break;
             case "Eat da Burger":
             this.backgroundImage = eatDaBurger;
+            this.link = "https://glacial-woodland-82955.herokuapp.com/"
                 break;            
             case "Fitness Tracker":
             this.backgroundImage = fitnessTracker;
+            this.link = "https://guarded-eyrie-47968.herokuapp.com/"
                 break;
             default:
                 console.log(`${this.props.name} could not be found in switch statement.`);
@@ -69,9 +75,9 @@ class ProjectCard extends React.Component
 
         
         return (
-        <div className="project-card" onMouseEnter = {this.MouseEnter} onMouseLeave = {this.MouseLeave} onClick = {this.handleClick}>
+        <div className="project-card" onMouseEnter = {this.MouseEnter} onMouseLeave = {this.MouseLeave}>
             <div className="image">
-                <a href = "www.google.com">
+                <a href = {this.link}>
                     <img className="image" alt = " of project" src = {this.backgroundImage}/>
                 </a> 
             </div>
