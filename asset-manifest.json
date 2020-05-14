@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.354cde01.chunk.css",
-    "main.js": "/portfolio/static/js/main.ed20da73.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ed20da73.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1c7e2c3f.chunk.css",
+    "main.js": "/portfolio/static/js/main.e1c19cd5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e1c19cd5.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
-    "static/js/2.6daacb45.chunk.js": "/portfolio/static/js/2.6daacb45.chunk.js",
-    "static/js/2.6daacb45.chunk.js.map": "/portfolio/static/js/2.6daacb45.chunk.js.map",
+    "static/js/2.14d12072.chunk.js": "/portfolio/static/js/2.14d12072.chunk.js",
+    "static/js/2.14d12072.chunk.js.map": "/portfolio/static/js/2.14d12072.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.14194d1cc747d871bd0a8b48cfd827b5.js": "/portfolio/precache-manifest.14194d1cc747d871bd0a8b48cfd827b5.js",
+    "precache-manifest.fa97cef182b30c9870ec887a26af6dea.js": "/portfolio/precache-manifest.fa97cef182b30c9870ec887a26af6dea.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.354cde01.chunk.css.map": "/portfolio/static/css/main.354cde01.chunk.css.map",
-    "static/js/2.6daacb45.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6daacb45.chunk.js.LICENSE.txt",
+    "static/css/main.1c7e2c3f.chunk.css.map": "/portfolio/static/css/main.1c7e2c3f.chunk.css.map",
+    "static/js/2.14d12072.chunk.js.LICENSE.txt": "/portfolio/static/js/2.14d12072.chunk.js.LICENSE.txt",
     "static/media/Byron_Resume.pdf": "/portfolio/static/media/Byron_Resume.2d43f126.pdf",
+    "static/media/Eat_da_Burger.png": "/portfolio/static/media/Eat_da_Burger.8fe3b2ee.png",
+    "static/media/Fair_Weather_Hiking.png": "/portfolio/static/media/Fair_Weather_Hiking.2a688ea4.png",
+    "static/media/Fitness_Tracker.png": "/portfolio/static/media/Fitness_Tracker.8a86e777.png",
+    "static/media/Note_Taker.png": "/portfolio/static/media/Note_Taker.553c8150.png",
+    "static/media/PWA_Budget_Tracker.png": "/portfolio/static/media/PWA_Budget_Tracker.d1ed0a53.png",
+    "static/media/React_Employee_Directory.png": "/portfolio/static/media/React_Employee_Directory.fc125272.png",
     "static/media/rain.mp4": "/portfolio/static/media/rain.3b4dd9c7.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.f4f2abbf.js",
-    "static/js/2.6daacb45.chunk.js",
-    "static/css/main.354cde01.chunk.css",
-    "static/js/main.ed20da73.chunk.js"
+    "static/js/2.14d12072.chunk.js",
+    "static/css/main.1c7e2c3f.chunk.css",
+    "static/js/main.e1c19cd5.chunk.js"
   ]
 }
