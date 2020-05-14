@@ -71,7 +71,9 @@ class ProjectCard extends React.Component
         return (
         <div className="project-card" onMouseEnter = {this.MouseEnter} onMouseLeave = {this.MouseLeave} onClick = {this.handleClick}>
             <div className="image">
-                <img className="image" alt = " of project" src = {this.backgroundImage}/>
+                <a href = "www.google.com">
+                    <img className="image" alt = " of project" src = {this.backgroundImage}/>
+                </a> 
             </div>
             <div className={`icon-holder origin`} ref = {this.icon_holder}>
                 <p className = "text-icon-overlay" >{this.props.name}</p>
