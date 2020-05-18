@@ -1,4 +1,15 @@
-
+.contact-info
+{
+    color: rgb(224, 224, 224);
+}
+.contact-info:visited
+{
+    color: rgb(138, 138, 138);
+}
+.border-top
+{
+    border-top: solid black;
+}
 .holder
 {
     position: relative;
@@ -11,18 +22,36 @@
     position: absolute;
     background-color: rgba(47, 47, 78, 0.7);
     border: rgb(136, 136, 136) solid 2px;
+    color: blanchedalmond;
     min-height: 100%;
     width: 100%;
     padding: 10px;
-    color: blanchedalmond;
     opacity: 0;
+}
+.info-holder
+{
+    padding: 20px;
+}
+.info-holder > ul
+{
+    margin: 25px 0;
+    margin-bottom: 50px;
+}
+.info-holder > ul > li
+{
+    padding: 2px 0;
 
+}
+.info-holder > h2
+{
+    margin: 5px 0;
 }
 .info-origin
 {
     height: 0%;
     opacity: 0;
-    transition: height 3s, opacity 0.5s;
+    transition: height 3s, opacity 0.5s, color 0.5s;
+    z-index: 0;
 }
 
 .info-transform
@@ -33,19 +62,74 @@
     transition: height 10ms,  opacity 1s;
     transition-delay: 0.35s;
     margin-bottom: 20px;
+    z-index: 1;
 }
 .introduction-card
 {
+    color: blanchedalmond;
     opacity: 1;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(58, 58, 90, 0.6);
+}
+.img-align
+{
+    text-align: center;
+}
+.link
+{
+    position: relative;
+    background-color: black;
+    color: blanchedalmond;
+    width: 30%;
+    font-size:  1.5rem;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 45px;
+    z-index: 1;
+}
+a:visited
+{
+    color: blanchedalmond;
 }
 .paragraph
 {
     font-size: 1.32rem;
 }
-.img-align
+.skill-list
+{
+    font-size: 1.32rem;
+}
+.text-center
 {
     text-align: center;
+}
+.text-large
+{
+    font-size: 30px;
+}
+
+.text > .left
+{
+    text-align: left;
+}
+.text > .center
+{
+    text-align: center;
+}
+.text > .right
+{
+    text-align: right;
+}
+.text > .name
+{
+    font-size: 100px;
+    margin: -50px;
+    padding: 0 50px;
+}
+.text > .bottom-margin
+{
+    margin-bottom: 30px;
+}
+.text > .top-margin
+{
+    margin-top: 30px;
 }

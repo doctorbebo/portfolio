@@ -3,6 +3,7 @@
 }
 .card
 {
+    position: relative;
     width: 75%;
     background-color: rgb(42, 42, 73);
     border: rgb(136, 136, 136) solid 2px;
@@ -13,12 +14,13 @@
     padding: 10% 5px;
     border-top-right-radius: 45px;
     border-bottom-right-radius: 45px;
-
+    z-index: 3;
 }
 .card-holder
 {
     width: 100%;
     margin: 0 0;   
+    z-index: 3;
 }
 
 .card-origin
@@ -31,20 +33,33 @@
 {
     transform: rotateY(180deg) scaleX(1.02);
     transition: transform 0.5s; 
+    z-index: 3;
+}
+
+@media only screen and (max-width: 930px)
+{
+    .card-transform
+    {
+        transform: rotateY(180deg) scaleX(1.03);
+    }
 }
 
 @media only screen and (max-width: 600px)
 {
-        .card
+    .card
     {
         width: 85%;
         font-size: 100%;
         padding: 10% 2px;
     }
+    .card-transform
+    {
+        transform: rotateY(180deg) scaleX(1.05);
+    }
 }
 @media only screen and (max-width: 400px)
 {
-        .card
+    .card
     {
         width: 85%;
         padding: 15% 1px;

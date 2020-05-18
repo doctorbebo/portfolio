@@ -14,10 +14,10 @@ function Partitions (props)
                 <Partition id = {"Skills"} partitionSelected = {props.partitionSelected} handleState = {props.handleStateChange}/>
             </div>
                 <div  className ="margin">
-                <Partition id = {"Test 1"} partitionSelected = {props.partitionSelected} handleState = {props.handleStateChange}/>
+                <Partition id = {"Education"} partitionSelected = {props.partitionSelected} handleState = {props.handleStateChange}/>
             </div>
             <div  className ="margin">
-                <Partition id = {"Test 2"} partitionSelected = {props.partitionSelected} handleState = {props.handleStateChange}/>
+                <Partition id = {"Contact Me"} partitionSelected = {props.partitionSelected} handleState = {props.handleStateChange}/>
             </div>
         </div>
     )
