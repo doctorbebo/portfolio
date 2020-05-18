@@ -2,16 +2,17 @@
 .holder
 {
     position: relative;
-    height: 100%;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
 }
 .info
 {
     position: absolute;
-    bottom: 0;
-    background-color: black;
-    border: rgb(78, 78, 78) solid 1px;
-    height: 0%;
-    width: 0%;
+    background-color: rgba(47, 47, 78, 0.7);
+    border: rgb(136, 136, 136) solid 2px;
+    min-height: 100%;
+    width: 100%;
     padding: 10px;
     color: blanchedalmond;
     opacity: 0;
@@ -20,18 +21,18 @@
 .info-origin
 {
     height: 0%;
-    width: 0%;
     opacity: 0;
-    transition: width 0.25s, height 3s, opacity 0.25s;
+    transition: height 3s, opacity 0.5s;
 }
 
 .info-transform
 {
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     opacity: 1;
-    transition: width 0.75s, height 10ms,  opacity 0.25s;
+    transition: height 10ms,  opacity 1s;
     transition-delay: 0.35s;
+    margin-bottom: 20px;
 }
 .introduction-card
 {
@@ -39,4 +40,12 @@
     height: 100%;
     width: 100%;
     background-color: rgb(58, 58, 90, 0.6);
+}
+.paragraph
+{
+    font-size: 1.32rem;
+}
+.img-align
+{
+    text-align: center;
 }

@@ -4,8 +4,8 @@
 .card
 {
     width: 75%;
-    background-color: black;
-    border: rgb(78, 78, 78) solid 1px;
+    background-color: rgb(42, 42, 73);
+    border: rgb(136, 136, 136) solid 2px;
     border-left: none;
     color: whitesmoke;
     font-size: 150%;
