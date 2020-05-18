@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1c7e2c3f.chunk.css",
-    "main.js": "/portfolio/static/js/main.9519c7a1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9519c7a1.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.98d7b6fe.chunk.css",
+    "main.js": "/portfolio/static/js/main.fdb27d3d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fdb27d3d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
-    "static/js/2.14d12072.chunk.js": "/portfolio/static/js/2.14d12072.chunk.js",
-    "static/js/2.14d12072.chunk.js.map": "/portfolio/static/js/2.14d12072.chunk.js.map",
+    "static/js/2.7b648974.chunk.js": "/portfolio/static/js/2.7b648974.chunk.js",
+    "static/js/2.7b648974.chunk.js.map": "/portfolio/static/js/2.7b648974.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.0f57e23805113845a99e6195879e2870.js": "/portfolio/precache-manifest.0f57e23805113845a99e6195879e2870.js",
+    "precache-manifest.5547a422e9ce5f10de4db0552a944e59.js": "/portfolio/precache-manifest.5547a422e9ce5f10de4db0552a944e59.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.1c7e2c3f.chunk.css.map": "/portfolio/static/css/main.1c7e2c3f.chunk.css.map",
-    "static/js/2.14d12072.chunk.js.LICENSE.txt": "/portfolio/static/js/2.14d12072.chunk.js.LICENSE.txt",
+    "static/css/main.98d7b6fe.chunk.css.map": "/portfolio/static/css/main.98d7b6fe.chunk.css.map",
+    "static/js/2.7b648974.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7b648974.chunk.js.LICENSE.txt",
     "static/media/Byron_Resume.pdf": "/portfolio/static/media/Byron_Resume.2d43f126.pdf",
     "static/media/Eat_da_Burger.png": "/portfolio/static/media/Eat_da_Burger.8fe3b2ee.png",
     "static/media/Fair_Weather_Hiking.png": "/portfolio/static/media/Fair_Weather_Hiking.2a688ea4.png",
@@ -19,12 +19,13 @@
     "static/media/Note_Taker.png": "/portfolio/static/media/Note_Taker.553c8150.png",
     "static/media/PWA_Budget_Tracker.png": "/portfolio/static/media/PWA_Budget_Tracker.d1ed0a53.png",
     "static/media/React_Employee_Directory.png": "/portfolio/static/media/React_Employee_Directory.fc125272.png",
+    "static/media/profile.png": "/portfolio/static/media/profile.0605685f.png",
     "static/media/rain.mp4": "/portfolio/static/media/rain.3b4dd9c7.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.f4f2abbf.js",
-    "static/js/2.14d12072.chunk.js",
-    "static/css/main.1c7e2c3f.chunk.css",
-    "static/js/main.9519c7a1.chunk.js"
+    "static/js/2.7b648974.chunk.js",
+    "static/css/main.98d7b6fe.chunk.css",
+    "static/js/main.fdb27d3d.chunk.js"
   ]
 }
