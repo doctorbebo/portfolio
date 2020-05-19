@@ -2,9 +2,20 @@
 {
     position: fixed;
     right: 0;
-    bottom: 0;
+    top: 0;
     padding: 0;
     margin: 0;
+    object-fit: fill;
+}
+
+.black
+{
+    background-color: black;
+}
+.full
+{
+    width: 100vw;
+    height: 100vh;
 }
 
 @media only screen and (max-width: 1600px)
@@ -25,14 +36,13 @@
 {
     #myVideo 
     {
-        height: 150vh;
+        height: 50vh;
     } 
 }
 @media only screen and (max-width: 400)
 {
     #myVideo 
     {
-        height: 200vh;
     } 
 }
 

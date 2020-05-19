@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ProjectCard from "../ProjectCard";
 import Info from "../Info";
 import Partitions from "../Partitions";
+import Video from "../Video";
 import "./style.css";
 
 class Body extends Component
@@ -10,6 +11,7 @@ class Body extends Component
     {
         partitionSelected: "",
     }
+
 
     handleStateChange = (name, value) =>
     {
@@ -22,9 +24,11 @@ class Body extends Component
 
     render ()
     { 
+        console.log(window.innerHeight)
         return (
         <div>
             <div className="grid-template-3">
+                <Video/>
                 <div className="col-margin-auto z-index-3">
                     <Partitions partitionSelected = {this.state.partitionSelected} handleStateChange = {this.handleStateChange} /> 
                 </div>

@@ -14,6 +14,8 @@ import resume from "./Byron_Resume.pdf";
                 isImageSmaller: false,
             }
     }
+
+
     render() 
     {
         window.addEventListener("resize", () =>
@@ -33,7 +35,7 @@ import resume from "./Byron_Resume.pdf";
             <div className= {`info ${this.props.partitionSelected === "About Me" ? "info-transform" : "info-origin" }`}>
                 <div className="">
                     <div className="img-align">
-                        <img src={profile} alt="" id="profile-img" height = {`${this.state.isImageSmaller ? "140px": "240px"}`} width = {`${this.state.isImageSmaller ? "150px": "263px"}`} ></img>
+                        <img src={profile} alt="" id="profile-img" height = {`${window.innerWidth < 500 ? "140px": "240px"}`} width = {`${window.innerWidth < 500  ? "150px": "263px"}`} ></img>
                     </div>
                     <div>
                         <p className = "paragraph"> &emsp; &emsp; My name is Byron Brown. I grew up on a small dairy farm in the great state Pennsylvania where farm life has taught me the importance of a great work ethic. I have a bachelor’s degree in commercial music from Liberty University. and a certificate of web development from the University of Washington. I have built and published my own video game and been a team member of a successful indie video game. I love to participate in hackathons so I can meet new friends and grow as a developer. </p>
