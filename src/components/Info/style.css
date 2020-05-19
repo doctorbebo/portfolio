@@ -173,6 +173,10 @@ a:visited
     {
         font-size: 15px;
     }
+    ul
+    {
+        padding-left: 20px;
+    }
     .contact-info
     {
         font-size: 0.75rem;
@@ -190,6 +194,10 @@ a:visited
 }
 @media only screen and (max-width: 400px)
 {
+    ul
+    {
+        padding-left: 10px;
+    }
     .contact-info
     {
         font-size: 0.60rem;
