@@ -4,15 +4,36 @@ import profile from "./profile.png";
 import resume from "./Byron_Resume.pdf";
 
 
-function Info (props)
+ class Info extends React.Component
 {
+    constructor(props)
+    {
+        super (props)
+            this.state =
+            {
+                isImageSmaller: false,
+            }
+    }
+    render() 
+    {
+        window.addEventListener("resize", () =>
+        {
+            if(window.innerWidth < 500 && !this.state.isImageSmaller)
+            {
+                this.setState({"isImageSmaller": true});
+            }  
+            if(window.innerWidth > 500 && this.state.isImageSmaller)
+            {
+                this.setState({"isImageSmaller": false});
+            }            
+        })
+    return   (
 
-    return (
         <div className = "holder">
-            <div className= {`info ${props.partitionSelected === "About Me" ? "info-transform" : "info-origin" }`}>
+            <div className= {`info ${this.props.partitionSelected === "About Me" ? "info-transform" : "info-origin" }`}>
                 <div className="">
                     <div className="img-align">
-                        <img src={profile} alt="" className="img-align"></img>
+                        <img src={profile} alt="" id="profile-img" height = {`${this.state.isImageSmaller ? "140px": "240px"}`} width = {`${this.state.isImageSmaller ? "150px": "263px"}`} ></img>
                     </div>
                     <div>
                         <p className = "paragraph"> &emsp; &emsp; My name is Byron Brown. I grew up on a small dairy farm in the great state Pennsylvania where farm life has taught me the importance of a great work ethic. I have a bachelor’s degree in commercial music from Liberty University. and a certificate of web development from the University of Washington. I have built and published my own video game and been a team member of a successful indie video game. I love to participate in hackathons so I can meet new friends and grow as a developer. </p>
@@ -21,7 +42,7 @@ function Info (props)
                     </div>
                 </div>
             </div>
-            <div className= {`info ${props.partitionSelected === "Skills" ? "info-transform" : "info-origin" }`}>
+            <div className= {`info ${this.props.partitionSelected === "Skills" ? "info-transform" : "info-origin" }`}>
                 <div className="info-holder">
                     <h1>Skills</h1>
                     <ul className= "skill-list">
@@ -38,7 +59,7 @@ function Info (props)
                     </div>
                 </div>
             </div>  
-            <div className= {`info ${props.partitionSelected === "Education" ? "info-transform" : "info-origin" }`}>
+            <div className= {`info ${this.props.partitionSelected === "Education" ? "info-transform" : "info-origin" }`}>
                 <div className="info-holder border-top">
                     <h1>Education:</h1>
                     <div className = "border-top">
@@ -55,7 +76,7 @@ function Info (props)
                     </div>
                 </div>
             </div>  
-            <div className= {`info ${props.partitionSelected === "Contact Me" ? "info-transform" : "info-origin" }`}>
+            <div className= {`info ${this.props.partitionSelected === "Contact Me" ? "info-transform" : "info-origin" }`}>
                 <div className="info-holder">
                     <h1>Contact Me</h1>
                     <h2>Byron Brown</h2>
@@ -66,7 +87,7 @@ function Info (props)
                     <h3>Music Site: &emsp;  <a className="contact-info" href="https://www.byronrbrownmusic.com/" >https://www.byronrbrownmusic.com/</a></h3>
                </div>
             </div> 
-            <div className= {`${!props.partitionSelected ? "introduction-card" : "info-origin" }`}>
+            <div className= {`info ${!this.props.partitionSelected ? "introduction-card" : "info-origin" }`}>
                 <div className = "info-holder text text-large">
                     <h1 className="left">Hello,</h1>
                     <h1 className="center">My Name is</h1>
@@ -76,7 +97,8 @@ function Info (props)
                 </div>
             </div>
         </div>
-    )
+        )
+    }
 } 
 
 export default Info;

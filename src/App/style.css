@@ -14,3 +14,25 @@
         height: 100vh;
     } 
 }
+@media only screen and (max-width: 1300px)
+{
+    #myVideo 
+    {
+        height: 110vh;
+    } 
+}
+@media only screen and (max-width: 500)
+{
+    #myVideo 
+    {
+        height: 150vh;
+    } 
+}
+@media only screen and (max-width: 400)
+{
+    #myVideo 
+    {
+        height: 200vh;
+    } 
+}
+
