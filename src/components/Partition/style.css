@@ -61,7 +61,17 @@
 {
     .card
     {
+        font-size: 80%;
         width: 85%;
+        padding: 15% 1px;
+    }
+}
+@media only screen and (max-width: 350px)
+{
+    .card
+    {
+        font-size: 20%;
+        width: 93%;
         padding: 15% 1px;
     }
 }

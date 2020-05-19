@@ -153,6 +153,10 @@ a:visited
 
 @media only screen and (max-width: 500px)
 {
+    .contact-info
+    {
+        font-size: 0.75rem;
+    }
     .text
     {
         font-size: 15px;
@@ -166,6 +170,10 @@ a:visited
 }
 @media only screen and (max-width: 400px)
 {
+    .contact-info
+    {
+        font-size: 0.60rem;
+    }
     .text
     {
         font-size: 15px;
