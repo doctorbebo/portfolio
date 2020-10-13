@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ProjectCard from "../ProjectCard";
 import Info from "../Info";
 import Partitions from "../Partitions";
-import Video from "../Video";
 import "./style.css";
 
 class Body extends Component
