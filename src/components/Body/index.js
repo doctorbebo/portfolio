@@ -28,7 +28,6 @@ class Body extends Component
         return (
         <div>
             <div className="grid-template-3">
-                <Video/>
                 <div className="col-margin-auto z-index-3">
                     <Partitions partitionSelected = {this.state.partitionSelected} handleStateChange = {this.handleStateChange} /> 
                 </div>
