@@ -25,7 +25,7 @@ class Body extends Component
     { 
         console.log(window.innerHeight)
         return (
-        <div>
+        <div className="full black">
             <div className="grid-template-3">
                 <div className="col-margin-auto z-index-3">
                     <Partitions partitionSelected = {this.state.partitionSelected} handleStateChange = {this.handleStateChange} /> 
