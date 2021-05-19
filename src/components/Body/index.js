@@ -35,7 +35,7 @@ class Body extends Component
                 </div>
                 <div className="grid-template-2 col-margin">
                     <div className="col-padding">
-
+                        <ProjectCard name = {"Orbit"}  />  
                         <ProjectCard name = {"PWA Budget Tracker"}  />
                         <ProjectCard name = {"Fitness Tracker"} />
                     </div>

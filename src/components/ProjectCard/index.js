@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.css";
 import icon from "./images/IconOne.png" 
-import fairWeatherHiking from "./images/Fair_Weather_Hiking.png";
+import orbit from "./images/orbit.png";
 import eatDaBurger from "./images/Eat_da_Burger.png";
 import fitnessTracker from "./images/Fitness_Tracker.png";
 import noteTaker from "./images/Note_Taker.png";
@@ -44,9 +44,9 @@ class ProjectCard extends React.Component
     {
 
         switch (this.props.name) {
-            case "Fair Weather Hiking":
-            this.backgroundImage = fairWeatherHiking;
-            this.link = "https://github.com/doctorbebo/Fair_Weather_Hiking_App"
+            case "Orbit":
+            this.backgroundImage = orbit;
+            this.link = "https://play.google.com/store/apps/details?id=com.DonationGames.Orbit"
                 break;
             case "Note Taker App":
             this.backgroundImage = noteTaker;
