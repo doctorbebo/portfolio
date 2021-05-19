@@ -5,7 +5,7 @@ import Body from "../components/Body";
 
 function App() {
       return (
-        <div className="overflow-hide black"> 
+        <div className="black"> 
           <Body/>
         </div>
       );
