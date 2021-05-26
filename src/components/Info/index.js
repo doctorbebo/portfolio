@@ -1,7 +1,7 @@
 import React from "react"; 
 import "./style.css";
 import profile from "./profile.png";
-import resume from "./Byron_Resume.pdf";
+import resume from "./Resume.pdf";
 
 
  class Info extends React.Component
@@ -84,7 +84,7 @@ import resume from "./Byron_Resume.pdf";
                     <h2>Byron Brown</h2>
                     <h3>Phone Number: &emsp;  <a className="contact-info" href="tel:+18145996428" >+1 (814) 599-6428</a></h3>
                     <h3>Email: &emsp;  <a className="contact-info" href="mailto:byronrb92@gmail.com" >byronrb92@gmail.com</a></h3>
-                    <h3>LinkIn: &emsp;  <a className="contact-info" href="https://www.linkedin.com/in/byron-r-brown/" >https://www.linkedin.com/in/byron-r-brown/</a></h3>
+                    <h3>LinkedIn: &emsp;  <a className="contact-info" href="https://www.linkedin.com/in/byron-r-brown/" >https://www.linkedin.com/in/byron-r-brown/</a></h3>
                     <h3>Github Profile: &emsp;  <a className="contact-info" href="https://github.com/doctorbebo" >https://github.com/doctorbebo</a></h3>
                     <h3>Music Site: &emsp;  <a className="contact-info" href="https://www.byronrbrownmusic.com/" >https://www.byronrbrownmusic.com/</a></h3>
                </div>
@@ -95,7 +95,7 @@ import resume from "./Byron_Resume.pdf";
                     <h1 className="center">My Name is</h1>
                     <h1 className="left name top-margin">Byron</h1>
                     <h1 className="right name bottom-margin">Brown</h1>
-                    <h1 className="center">I'm a professional wed developer</h1>
+                    <h1 className="center">I'm a Software Engineer</h1>
                 </div>
             </div>
         </div>

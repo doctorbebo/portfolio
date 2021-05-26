@@ -5,8 +5,8 @@
 {
     position: relative;
     width: 75%;
-    background-color: rgb(42, 42, 73);
-    border: rgb(136, 136, 136) solid 2px;
+    background-color: rgba(19, 19, 19);
+    border: rgb(235, 235, 235) solid 2px;
     border-left: none;
     color: whitesmoke;
     font-size: 150%;
