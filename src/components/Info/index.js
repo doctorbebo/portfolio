@@ -62,7 +62,7 @@ import resume from "./Resume.pdf";
                 </div>
             </div>  
             <div className= {`info ${this.props.partitionSelected === "Education" ? "info-transform" : "info-origin" }`}>
-                <div className="info-holder border-top">
+                <div className="info-holder">
                     <h1>Education:</h1>
                     <div className = "border-top">
                         <h2>University of Washington</h2>
