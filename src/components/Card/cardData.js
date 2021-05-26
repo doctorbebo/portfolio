@@ -9,37 +9,37 @@ const tileData = [
   {
     img: orbit,
     title: "Orbit",
-    text: "desc.",
+    text: "Fun little space ship game available in the Google Play Store",
     link: "https://play.google.com/store/apps/details?id=com.DonationGames.Orbit",
   },
   {
     img: reactEmployeeDirectory,
     title: "Employee Directory",
-    text: "desc.",
+    text: "A React App using virtual DOM to create a fast employee filtering process",
     link: "https://salty-springs-52051.herokuapp.com/",
   },
   {
     img: eatDaBurger,
     title: "Eat Da Burger",
-    text: "desc.",
+    text: "A goofy app that uses an MySql database to save data.",
     link: "https://glacial-woodland-82955.herokuapp.com/",
   },
   {
     img: noteTaker,
     title: "Note Taker",
-    text: "desc.",
+    text: "A full-stack note taking web app.",
     link: "https://afternoon-chamber-95392.herokuapp.com/",
   },
   {
     img: fitnessTracker,
     title: "Fitness Tracker",
-    text: "desc.",
+    text: "Saves workout data to a MongoDb using Mongoose.",
     link: "https://guarded-eyrie-47968.herokuapp.com/",
   },
   {
     img: pwaBudgetTracker,
     title: "Budget Tracker",
-    text: "desc.",
+    text: "A Progressive Web App that works even when disconnected to the internet. Saves data to database when connection reestablished.",
     link: "https://still-eyrie-21891.herokuapp.com/",
   },
 ];
