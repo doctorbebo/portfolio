@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import PortCards from "../PortCards";
-import cardData from "../PortCards/cardData"
+import Card from "../Card";
+import cardData from "../Card/cardData"
 import Info from "../Info";
 import Partitions from "../Partitions";
 import "./style.css";
@@ -40,12 +40,12 @@ class Body extends Component
               <div className="grid-template-2 col-margin">
                 <div>
                   {cardDataA.map((cardData) => (
-                    <PortCards cardData={cardData} />
+                    <Card cardData={cardData} />
                   ))}
                 </div>
                 <div>
                   {cardDataB.map((cardData) => (
-                    <PortCards cardData={cardData} />
+                    <Card cardData={cardData} />
                   ))}
                 </div>
               </div>
