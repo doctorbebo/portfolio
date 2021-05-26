@@ -1,34 +1,25 @@
-import React from "react"; 
+import React from "react";
 import "./style.css";
 import profile from "./profile.png";
 import resume from "./Resume.pdf";
 
+class Info extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isImageSmaller: false,
+    };
+  }
 
- class Info extends React.Component
-{
-    constructor(props)
-    {
-        super (props)
-            this.state =
-            {
-                isImageSmaller: false,
-            }
-    }
-
-
-    render() 
-    {
-        window.addEventListener("resize", () =>
-        {
-            if(window.innerWidth < 500 && !this.state.isImageSmaller)
-            {
-                this.setState({"isImageSmaller": true});
-            }  
-            if(window.innerWidth > 500 && this.state.isImageSmaller)
-            {
-                this.setState({"isImageSmaller": false});
-            }            
-        })
+  render() {
+    window.addEventListener("resize", () => {
+      if (window.innerWidth < 500 && !this.state.isImageSmaller) {
+        this.setState({ isImageSmaller: true });
+      }
+      if (window.innerWidth > 500 && this.state.isImageSmaller) {
+        this.setState({ isImageSmaller: false });
+      }
+    });
     return (
       <div className="holder">
         <div className={`info ${this.props.partitionSelected === "About Me" ? "info-transform" : "info-origin"}`}>
@@ -167,7 +158,7 @@ import resume from "./Resume.pdf";
         </div>
       </div>
     );
-    }
-} 
+  }
+}
 
 export default Info;
