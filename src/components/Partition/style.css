@@ -1,77 +1,64 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.card
-{
-    position: relative;
-    width: 75%;
-    background-color: rgb(42, 42, 73);
-    border: rgb(136, 136, 136) solid 2px;
-    border-left: none;
-    color: whitesmoke;
-    font-size: 150%;
-    text-align: center;
-    padding: 10% 5px;
-    border-top-right-radius: 45px;
-    border-bottom-right-radius: 45px;
-    z-index: 3;
+.card {
+  position: relative;
+  width: 75%;
+  background-color: rgba(19, 19, 19);
+  border: rgb(235, 235, 235) solid 2px;
+  border-left: none;
+  color: whitesmoke;
+  font-size: 150%;
+  text-align: center;
+  padding: 10% 5px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  z-index: 3;
 }
-.card-holder
-{
-    width: 100%;
-    margin: 0 0;   
-    z-index: 3;
+.card-holder {
+  width: 100%;
+  margin: 0 0;
+  z-index: 3;
 }
 
-.card-origin
-{
-    transform: rotate(0deg);
-    transition: transform 0.5s;
+.card-origin {
+  transform: rotate(0deg);
+  transition: transform 0.5s;
 }
 
-.card-transform
-{
-    transform: rotateY(180deg) scaleX(1.02);
-    transition: transform 0.5s; 
-    z-index: 3;
+.card-transform {
+  transform: rotateY(180deg) scaleX(1.02);
+  transition: transform 0.5s;
+  z-index: 3;
 }
 
-@media only screen and (max-width: 930px)
-{
-    .card-transform
-    {
-        transform: rotateY(180deg) scaleX(1.03);
-    }
+@media only screen and (max-width: 930px) {
+  .card-transform {
+    transform: rotateY(180deg) scaleX(1.03);
+  }
 }
 
-@media only screen and (max-width: 600px)
-{
-    .card
-    {
-        width: 85%;
-        font-size: 100%;
-        padding: 10% 2px;
-    }
-    .card-transform
-    {
-        transform: rotateY(180deg) scaleX(1.05);
-    }
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 85%;
+    font-size: 100%;
+    padding: 10% 2px;
+  }
+  .card-transform {
+    transform: rotateY(180deg) scaleX(1.05);
+  }
 }
-@media only screen and (max-width: 400px)
-{
-    .card
-    {
-        font-size: 80%;
-        width: 85%;
-        padding: 15% 1px;
-    }
+@media only screen and (max-width: 400px) {
+  .card {
+    font-size: 80%;
+    width: 85%;
+    padding: 15% 1px;
+  }
 }
-@media only screen and (max-width: 350px)
-{
-    .card
-    {
-        font-size: 20%;
-        width: 93%;
-        padding: 15% 1px;
-    }
+@media only screen and (max-width: 350px) {
+  .card {
+    font-size: 20%;
+    width: 93%;
+    padding: 15% 1px;
+  }
 }

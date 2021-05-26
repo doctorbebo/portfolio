@@ -1,91 +1,68 @@
-.grid-template-3
-{
-    display: grid;
-    grid-template-columns: 15% 35% 50%;
-    padding-right: 20px;
+.black {
+  background-color: black;
 }
-.grid-template-2
-{
+
+.grid-template-3 {
+  display: grid;
+  grid-template-columns: 15% 35% 50%;
+  padding-right: 20px;
+}
+.grid-template-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.col-padding {
+  padding: 0 0;
+}
+.col-margin-auto {
+  margin: 0;
+}
+.col-margin-20 {
+  margin: 20px 0;
+}
+.z-index-3 {
+  z-index: 3;
+}
+
+@media only screen and (max-width: 1300px) {
+  .grid-template-3 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    width: 100%;
+  }
+  .grid-template-2 {
     display: grid;
     grid-template-columns: 50% 50%;
-}
-.col-padding
-{   
-    padding: 0 10px;
-}
-.col-margin-auto
-{
-    margin: 0;
-}
-.col-margin-20
-{
-    margin: 20px 0;
-}
-.z-index-3
-{
-    z-index: 3;
+    width: 80%;
+    margin: 0 auto;
+    grid-column-end: span 2;
+  }
 }
 
-@media only screen and (max-width: 1300px)
-{
-    .grid-template-3
-    {
-        display: grid;
-        grid-template-columns: 25% 75%;
-        width: 100%;
-    }
-    .grid-template-2
-    {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        width: 80%;
-        margin: 0 auto;
-        grid-column-end: span 2;
-    }
+@media only screen and (max-width: 1000px) {
+  .grid-template-2 {
+    grid-column-end: span 2;
+    width: 90%;
+    margin: auto;
+  }
 }
-
-@media only screen and (max-width: 1000px)
-{
-    .grid-template-2
-    {
-        grid-column-end: span 2;
-        width: 90%;
-        margin: auto;
-    }
+@media only screen and (max-width: 900px) {
+  .grid-template-2 {
+    width: 100%;
+  }
 }
-@media only screen and (max-width: 900px)
-{
-    .grid-template-2
-    {
-        width: 100%;
-    }
+@media only screen and (max-width: 700px) {
+  .grid-template-2 {
+    display: inline-block;
+    width: 70%;
+  }
 }
-@media only screen and (max-width: 700px)
-{
-    .grid-template-2
-    {
-        display: inline-block;
-        width: 70%;
-    }
-}
-@media only screen and (max-width: 500px)
-{
-    .grid-template-2
-    {
-        display: inline-block;
-        width: 90%;
-    }
-    .grid-template-3
-    {
-        width: 100%;
-    }
-    #video
-    {
-        position: fixed;
-        right: 0;
-        top: 0;
-        padding: 0;
-        margin: 0;
-        height: 300vh;
-    }
+@media only screen and (max-width: 500px) {
+  .grid-template-2 {
+    display: inline-block;
+    width: 90%;
+  }
+  .grid-template-3 {
+    width: 100%;
+  }
 }

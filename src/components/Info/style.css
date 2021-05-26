@@ -1,216 +1,169 @@
-.contact-info
-{
-    color: rgb(224, 224, 224);
-}
-.contact-info:visited
-{
-    color: rgb(138, 138, 138);
-}
-.border-top
-{
-    border-top: solid black;
-}
-.holder
-{
-    position: relative;
-    height: 100%;
-    min-height: 100%;
-    width: 100%;
-}
-.info
-{
-    position: relative;
-    background-color: rgba(47, 47, 78, 0.7);
-    border: rgb(136, 136, 136) solid 2px;
-    color: blanchedalmond;
-    width: 100%;
-    padding: 10px;
-    opacity: 0;
-}
-.info-holder
-{
-    padding: 20px;
-}
-.info-holder > ul
-{
-    margin: 25px 0;
-    margin-bottom: 50px;
-}
-.info-holder > ul > li
-{
-    padding: 2px 0;
-
-}
-.info-holder > h2
-{
-    margin: 5px 0;
-}
-.info-origin
-{
-    position: absolute;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: height 3s, opacity 0.5s, color 0.5s;
-    z-index: 0;
+* {
+  color: rgb(235, 235, 235);
 }
 
-.info-transform
-{
-    position: relative;
-    min-height: 100%;
-    width: 100%;
-    opacity: 1;
-    transition: height 10ms,  opacity 1s;
-    transition-delay: 0.35s;
-    margin-bottom: 20px;
-    z-index: 1;
+.contact-info {
+  color: rgb(224, 224, 224);
 }
-.introduction-card
-{
-    height: 100%;
-    position: relative;
-    color: blanchedalmond;
-    opacity: 1;
+
+.border-top {
+  border-top: solid rgb(48, 48, 48);
 }
-.img-align
-{
-    text-align: center;
+.holder {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
 }
-.link
-{
-    position: relative;
-    color: blanchedalmond;
-    width: 30%;
-    font-size:  1.5rem;
-    text-align: center;
-    padding: 10px;
-    margin: 0 auto;
-    border-radius: 45px;
-    z-index: 1;
+.info {
+  position: relative;
+  background-color: rgba(19, 19, 19);
+  border: rgb(235, 235, 235) solid 2px;
+  width: 100%;
+  padding: 10px;
+  opacity: 0;
 }
-a:visited
-{
-    color: blanchedalmond;
+.info-holder {
+  padding: 20px;
 }
-.paragraph
-{
-    font-size: 1.32rem;
+.info-holder > ul {
+  margin: 25px 0;
+  margin-bottom: 50px;
 }
-.skill-list
-{
-    font-size: 1.32rem;
+.info-holder > ul > li {
+  padding: 2px 0;
 }
-.text-center
-{
-    text-align: center;
+.info-holder > h2 {
+  margin: 5px 0;
 }
-.text
-{
-    font-size: 30px;
+.info-origin {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: height 3s, opacity 0.5s, color 0.5s;
+  z-index: 0;
 }
-.text > .left
-{
-    text-align: left;
+
+.info-transform {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: height 10ms, opacity 1s;
+  transition-delay: 0.35s;
+  margin-bottom: 20px;
+  z-index: 1;
 }
-.text > .center
-{
-    text-align: center;
+.introduction-card {
+  height: 100%;
+  position: relative;
+  opacity: 1;
 }
-.text > .right
-{
-    text-align: right;
+.img-align {
+  text-align: center;
 }
-.text > .name
-{
-    font-size: 100px;
-    margin: -50px;
+.link {
+  position: relative;
+  width: 30%;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 45px;
+  z-index: 1;
+}
+
+.paragraph {
+  font-size: 1.32rem;
+}
+.skill-list {
+  font-size: 1.32rem;
+}
+.text-center {
+  text-align: center;
+}
+.text {
+  font-size: 30px;
+}
+.text > .left {
+  text-align: left;
+}
+.text > .center {
+  text-align: center;
+}
+.text > .right {
+  text-align: right;
+}
+.text > .name {
+  font-size: 100px;
+  margin: -50px;
+  padding: 0 50px;
+}
+.text > .bottom-margin {
+  margin-bottom: 30px;
+}
+.text > .top-margin {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .paragraph {
+    font-size: 0.9rem;
+  }
+  .skill-list {
+    font-size: 0.9rem;
+  }
+  .text {
+    font-size: 22px;
+  }
+  .text > .name {
+    font-size: 80px;
+    margin: -35px;
+    padding: 0 35px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h3 {
+    font-size: 15px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  .contact-info {
+    font-size: 0.75rem;
+  }
+  .text {
+    font-size: 15px;
+  }
+  .text > .name {
+    font-size: 60px;
+    margin: -25px;
     padding: 0 50px;
+  }
 }
-.text > .bottom-margin
-{
-    margin-bottom: 30px;
-}
-.text > .top-margin
-{
-    margin-top: 30px;
-}
-
-@media only screen and (max-width: 700px)
-{
-    h1
-    {
-        font-size: 25px;
-    }
-    h2
-    {
-        font-size: 20px;
-    }
-    .paragraph
-    {
-        font-size: 0.9rem;
-    }
-    .skill-list
-    {
-        font-size: 0.9rem;
-    }
-    .text
-    {
-        font-size: 22px;
-    }
-    .text > .name
-    {
-        font-size: 80px;
-        margin: -35px;
-        padding: 0 35px;
-    }
-}
-
-@media only screen and (max-width: 500px)
-{
-    h3
-    {
-        font-size: 15px;
-    }
-    ul
-    {
-        padding-left: 20px;
-    }
-    .contact-info
-    {
-        font-size: 0.75rem;
-    }
-    .text
-    {
-        font-size: 15px;
-    }
-    .text > .name
-    {
-        font-size: 60px;
-        margin: -25px;
-        padding: 0 50px;
-    }
-}
-@media only screen and (max-width: 400px)
-{
-    ul
-    {
-        padding-left: 10px;
-    }
-    .contact-info
-    {
-        font-size: 0.60rem;
-    }
-    .text
-    {
-        font-size: 15px;
-    }
-    .text > .name
-    {
-        font-size: 50px;
-        text-align: center;
-        margin: 5px 0;
-        padding: 0;
-    }
+@media only screen and (max-width: 400px) {
+  ul {
+    padding-left: 10px;
+  }
+  .contact-info {
+    font-size: 0.6rem;
+  }
+  .text {
+    font-size: 15px;
+  }
+  .text > .name {
+    font-size: 50px;
+    text-align: center;
+    margin: 5px 0;
+    padding: 0;
+  }
 }
