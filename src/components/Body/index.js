@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ProjectCard from "../ProjectCard";
 import PortCards from "../PortCards";
 import cardData from "../PortCards/cardData"
 import Info from "../Info";
