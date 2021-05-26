@@ -23,7 +23,7 @@ import "./style.css";
     }else
     {
         return (
-            <div className = "origin">
+            <div className = "card-origin">
                 <div className= "card-holder"   >
                     <div  className="card" onMouseEnter = {MouseEnter}>
                         <div className = "text origin"> {props.id}</div> 

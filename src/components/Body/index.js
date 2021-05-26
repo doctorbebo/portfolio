@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import ProjectCard from "../ProjectCard";
 import PortCards from "../PortCards";
 import cardData from "../PortCards/cardData"
 import Info from "../Info";
 import Partitions from "../Partitions";
 import "./style.css";
 
-import imageTest from '../PortCards/images/orbit.png'
 
 class Body extends Component
 {
