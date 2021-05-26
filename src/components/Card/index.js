@@ -8,7 +8,6 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -24,7 +23,7 @@ const cardStyle = {
   color: "#d6d6d6",
 };
 
-export default function MediaCard({cardData: { title, text, img, link }} ) {
+export default function MediaCard({ cardData: { title, text, img, link } }) {
   const classes = useStyles();
 
   return (
